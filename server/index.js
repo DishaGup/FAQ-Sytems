@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/auth', userRouter);
-app.use('/api', verifyToken, faqRouter);
+app.use('/api/faq', verifyToken, faqRouter);
 // Connect to MongoDB
 const mongoURI = process.env.MongoDB_URL
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
