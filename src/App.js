@@ -1,13 +1,12 @@
 import './App.css';
-import { Button } from 'tamagui'
+import { Button, Stack } from 'tamagui'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Button>Button</Button>
-      </header>
-    </div>
+  
+  <Stack>hi</Stack>
+      </div>
   );
 }
 
