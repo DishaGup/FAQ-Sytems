@@ -14,12 +14,7 @@ const AllRoutes = () => {
          <Route path="/" element={<Home/>} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage/>} />
-        {/* <Route path="/all-recipe" element={<AllRecipe />} />
-        <Route
-          path="/single-recipe/:recipe_id"
-          element={<SingleRecipePage />}
-        />
-        <Route path="/bookmarked-data" element={<BookmarkData />} /> */}
+        
       </Routes>
     </div>
   );
